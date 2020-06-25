@@ -1,0 +1,6 @@
+Output: #ShivamCDAC for infinite times
+Reason: In the do-while loop, the loop is executed once and then the condition is checked.
+In printf the order of execution is from right to left. incr has a post-increment operator,
+So its value will be 1 for the next statement. decr = incr-- is also a post-increment now decr = 1
+and the incr value will decrement to 0. Here decr value will be always 1.
+So the loop will execute for the infinite time.
