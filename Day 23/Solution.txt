@@ -1,0 +1,4 @@
+Output: error: label 'ShivamCDAC' used but not defined
+Reason: goto is a jump statement or an unconditional jump statement. It can be used to jump from
+anywhere to anywhere within a function. If goto was defined within a CDAC function then the output
+ would be #ShivamCDAC
