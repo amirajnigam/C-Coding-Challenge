@@ -1,0 +1,9 @@
+Ans: Output: -1 5
+Reason: In union, all elements share the same memory location. In union CDAC, bit fields are used to use memory
+more efficiently. The output comes to be negative. Value 3 is assigned in 2 bit signed integer which is equal to 11 in binary. The MSB is at 1, so it's a negative number and we need to calculate 2's complement of the binary number to get the actual value. By
+calculating 2's complement, we will get 01 which is equivalent to decimal number 1, and since it was a negative number we will
+get -1. Whereas for 5, it is declared with 3 bit unsigned int data type which will be 101 in binary. 
+
+
+URL: https://www.linkedin.com/in/theembeddedsoftwareengineer/detail/recent-activity/shares/
+
