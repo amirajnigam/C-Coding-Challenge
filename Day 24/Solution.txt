@@ -1,0 +1,6 @@
+ Output: Error
+Reason: Structure members cannot be initialized with the declaration. When a datatype is declared,
+no memory is allocated for it. Memory is allocated only when variables are created. Structure members
+can be initialized by struct CDAC Shivam = {20,'c',5.6}
+
+Link tp problem : https://www.linkedin.com/feed/update/urn:li:activity:6682516742524301312/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6682516742524301312%2C6682517020900229120)
