@@ -1,0 +1,6 @@
+Output: #ShivamCDAC4
+Reason: Function CDAC() has returned type int, printf() return the total number of character printed. When CDAC()
+is called it will print #ShivamCDAC. Now, the main() printf will return the number of characters printed by the last printf
+in CDAC() i.e. 4. Hence, the output will be #ShivamCDAC4
+
+Link to quesion: https://www.linkedin.com/feed/update/urn:li:activity:6683240905765453824/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6683240905765453824%2C6683241097352876032)
