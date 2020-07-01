@@ -1,0 +1,17 @@
+Output: value = 50, size = 4 or 8
+            value = 65, size = 4
+
+Reason: Here, no data type is declared for ptr.
+Ptr=&iVal-> it will store the address of the int iVal i.e. 50.
+
+*(int*)ptr-> Using type casting ptr data type is temporarily changed to int and it will print the value at that memory location i.e. 50
+sizeof(ptr)-> 4 or 8
+
+*(char*)ptr-> Using typecasting ptr data type is temporarily changed to char and it will print the value at that memory location i.e.65
+sizeof(ptr)-> 4 or 8
+ 
+Since a pointer is a memory address its always the same size regardless of what the datatype it points to. So, a pointer to a float, int or char
+are all the same size. The size of the pointer is platform-dependent and it depends on the target processor architecture i.e. 32-bit machine the
+pointer size will be 4 byte and 64-bit machine pointer size will be 8 byte.
+
+Link to problem:https://www.linkedin.com/in/theembeddedsoftwareengineer/detail/recent-activity/shares/
