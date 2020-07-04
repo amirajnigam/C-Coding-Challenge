@@ -1,0 +1,9 @@
+Output: 13
+Reason : flag = 00000010
+0x02 = 00000010
+~0x02 = 11111101
+flag = flag &~0x02
+flag = 00001101
+flag = 13
+
+Link to Problem: https://www.linkedin.com/in/theembeddedsoftwareengineer/detail/recent-activity/shares/
