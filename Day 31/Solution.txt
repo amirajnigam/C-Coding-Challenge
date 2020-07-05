@@ -1,0 +1,7 @@
+Output: -32
+Reason: strcmp() compares the two strings lexicographically means it starts comparison character by character
+starting from the first character until the characters in both strings are equal or a NULL character is encountered.
+The ASCII value of S is 83 and the ASCII value of s is 115. A negative value will be returned when the first not 
+matching character in the left string has lesser ASCII value than the corresponding character in the right string.
+
+Link to Question : https://www.linkedin.com/in/theembeddedsoftwareengineer/detail/recent-activity/shares/
