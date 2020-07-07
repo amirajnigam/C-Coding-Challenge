@@ -1,0 +1,8 @@
+Output: p= 0, after correcting the syntax error
+Reason: When the requested size is0, the behavior of memory allocation function malloc() is implementation-defined.
+As per ISO/IEC 9899: 2011: if the size of the space requested is zero, the behavior is implementation-defined:either a
+a null pointer is returned, or the behavior is as if the size were some non zero value, except that the returned pointer shall
+not be used to access an object.
+
+
+Link to problem: https://www.linkedin.com/in/theembeddedsoftwareengineer/detail/recent-activity/shares/
