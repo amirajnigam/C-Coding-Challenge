@@ -1,0 +1,12 @@
+Output: (null), Hello
+Reason: Embedded(void) will return some garbage value because char str[] is a local variable in the Embedded function.
+It will be destroyed once it reaches the end of the function.
+ 
+IoT(void) will return Hello because char* str is pointing towards the address of the string "Hello". 
+The IoT function has char* return data type,so it will return the value at that memory location.
+
+The dangling pointer situation has been created in Embedded function. This problem can be solved by declaring
+char str[] as the static variable(static char str[]) then the output will be Hello,Hello
+
+
+Link to problem: https://www.linkedin.com/feed/update/urn:li:activity:6686140204283256832/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6686140204283256832%2C6686140245802672128)
