@@ -1,0 +1,6 @@
+Output: a=11,b=22,largest=21
+Reason: Macro named LARGEST is replaced with macro body in pre processing stage i.e, (a++>=b++)?a++:b++ which is ternary operator
+gives output a++ if condition is true else gives b++ value.So now (10>=20)?11:21 in which condition is false so b++ value is assigned
+to l i.e,21 and its post increment so later b value become 22
+
+Link to problem: https://www.linkedin.com/in/theembeddedsoftwareengineer/detail/recent-activity/shares/
