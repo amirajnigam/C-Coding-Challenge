@@ -1,0 +1,9 @@
+Output: *head_ref = prev;
+Reason: When the while loop is executed the curr and next will point towards NULL and the prev will point towards the address 
+of the last node. So, to make linked list reverse head_ref should point towards the address of last node i.e address of the last
+node is stored in prev. 
+
+
+Linkt to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6686875379367600128-SW-s
+
+Link to Solution: https://www.youtube.com/watch?v=sYcOK51hl-A&t=300s
