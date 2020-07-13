@@ -1,0 +1,24 @@
+Output:
+1
+33554432
+131072
+512
+2
+ 
+Reason: First thing first, (int*)ptr++ is used to type cast void pointer, *(int*)ptr++ used to dereference the pointer,
+(int*)&*(int*)ptr++ will point towards the address of the value. *(int*)&*(int*)ptr++ will dereference data at that memory location.
+So, we can write *(int*)&*(int*)ptr++ as *(int*)ptr++(both are same).
+ 
+ptr is declared with void data type which is of 1 byte and array is declared with int data type which is of 4 bytes.
+ 
+In hexadecimal, the value at arr[] location will be 00000005 0000 0004 00000003 00000002 00000001
+ 
+Note: In the program, ptr will be incremented as per void data type i.e. 1 byte and ptr is explicitly typecast into int i.e. 4 byte
+ 
+1st iteration:      00000001(Hex) : 1 (decimal)
+2nd iteration:    02000000(Hex) : 33554432(decimal)
+3rd iteration:     00020000(Hex) : 131072(decimal)
+4th iteration:     00000200(Hex) : 512(decimal)
+5th iteration:     00000002(Hex) : 2(decimal)
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6687590811833643008-PcB1
