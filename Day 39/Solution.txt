@@ -1,0 +1,9 @@
+Output: 8,garbage value
+Reason: In CDAC function Shiv is pointing towards the starting address of loc_arr[] i.e. Shiv[0] = loc_arr[0]
+Now, Shiv++ will point towards the 1st element of loc_arr[] i.e. Shiv[0] = loc_arr[1]
+
+Shiv[0]= loc_arr[0] = 7
+Shiv[1] = loc_arr[1] = 8
+Shiv[3] = loc_arr[2] = garbage value
+
+Link top problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6687959809985269760-1mhM
