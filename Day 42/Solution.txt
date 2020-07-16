@@ -1,0 +1,8 @@
+Ans: Output: 13
+Reason: const and volatile qualifiers are used in the code. Volatile keyword will prevent the compile from applying any optimizations on objects that can change in ways that cannot be determined by the compiler. With const keyword, we can change the pointer to point to any other integer value, but cannot change the value of the object pointer using a pointer.
+ 
+Arithmetic on pointer moves by the size of the type of that pointer.
+5/2 = 2
+2*(size of int i.e. 4) + 5 = 13
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6689045417868570624-nse2
