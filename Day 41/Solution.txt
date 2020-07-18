@@ -1,0 +1,4 @@
+Output: 5, garbage value
+Reason: %d %d is mentioned in the printf which is the format specifier for int, whereas no int data type has declared int the code. First, %d will look for the integer value and 4.5 is the float type so it will skip it and look for the second integer value. first, %d will print 5, and the second %d will look for integer value which is not present. So, it will print garbage value.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6688678179420426240-pdAB
