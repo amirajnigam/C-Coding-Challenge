@@ -1,0 +1,13 @@
+Output: 2 3 5 6
+Reason: (*CDAC)[3] is a pointer to an array of 3 integers.
+(*CDAC)[3] = {1,2,3}
+Initially CDAC pointer will point towards the 1st row of Shivam.
+(*CDAC)[1] = 2,
+(*CDAC)[2] = 3
+ 
+Now, ++CDAC will point towards the 2nd row of Shivam i.e.
+(*CDAC)[3] = {4,5,6}
+(*CDAC)[1] = 5
+(*CDAC)[2] = 6 
+
+Link to problem : https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6689404717975654401-70HD
