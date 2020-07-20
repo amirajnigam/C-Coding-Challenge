@@ -1,0 +1,5 @@
+Output: #ShivamCDAC
+Reason: fun function will return nothing. So, the changes made in fun function will not be reflected in the output.
+So, the puts(str) will print the string.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6690120017108959232-EzEP
