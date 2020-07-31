@@ -1,0 +1,9 @@
+ Output: Compilation Error
+Reason: Static variables can only be initialized using constant literals. All objects with static storage duration must be
+initialized (set to their initial values) before execution of main() starts. So a value which is not known at translation time
+cannot be used for initialization of static variables.
+
+If we declare static int i = 50; then we will get output: value of i = 50
+
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6694842118470545408-nyo_
