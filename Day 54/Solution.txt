@@ -1,0 +1,4 @@
+Output: #ShivamCDAC 4#ShivamCDAC 15
+Reason: + unary operator has higher precedence than / division operator. k = k/(i+j) will be 1 and the size of function will return the size of an integer that is 4 byte.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6694475016987398144--j4g
