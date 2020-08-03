@@ -1,0 +1,4 @@
+Output: #ShivamCDAC 26
+Reason:  The Integer digit preceded by 0 is interpreted as an octal number. An octal number for decimal value 26 is 32
+
+Link to Problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6695926767078768640-bGls
