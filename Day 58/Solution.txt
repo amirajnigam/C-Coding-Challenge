@@ -1,0 +1,12 @@
+Output: -2 3 -8 -1
+Reason: Bitfield declares a member with an explicit width. Int type for bit field with implementation-defined signedness. (Note that this differs from the meaning of the keyword int everywhere else, where it means "signed int"). For example,  int b:3; may have a range of values 0..7 or -4..3.
+ 
+MSB bit will represent sign bit i.e. 1 means negative and 0 means positive.
+b1:2; 10 = (-2+0) = -2
+b2:4; 0011 = (0+0+2+1) = 3
+b3: 4; 1000 = (-8+0+0+0) = -8
+b4: 3; 111 = (-4+2+1) = -1 
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6696288307254448128-1q0_
+
+Important link:https://en.cppreference.com/w/c/language/bit_field
