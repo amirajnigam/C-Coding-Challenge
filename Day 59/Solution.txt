@@ -1,0 +1,10 @@
+Output: #ShivamCDAC
+Reason: #if directive allows for conditional compilation. The preprocessor evaluates an expression provided 
+with the #if directive to determine if the subsequent code should be included in the compilation process.
+The #if directive must be closed by an #endif directive.
+ 
+Here, else part will get executed because !X lead to 0 in this case.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6697045091313422336-NAnq
+
+USeful Resource: https://www.techonthenet.com/c_language/directives/if.php
