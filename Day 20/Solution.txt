@@ -1,0 +1,4 @@
+Output: While loop will run for infinite times and It will print #ShivamCDAC for n times. 
+Reason: Integer does not take value assigned after decimal. Int I will always be zero and the condition (0!=1) will be always true. Loop will execute for n times
+
+Link to Problem:https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6681066429116231680-Wp3F

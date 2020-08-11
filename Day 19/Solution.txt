@@ -1,0 +1,13 @@
+Output: Size is 12
+Reason: This is an example of structure padding. There are 2 Rules for structure padding:
+
+Rule1: Any data type will always store its value at the address, which is multiple of the size of that data type.
+Rule2: Structure will take the size equal to the multiple of maximum bytes taken by a variable in that structure.
+
+Bytes	0	1	2	3	4	5	6	7	8	9	10	11
+	Char a	Char b			Int I	Int I	Int I	Int I	Char x	Char y	S	S
+
+Size of char is 1 byte and 0 is multiple of 1. So, char a will take 0th index byte. Similarly char b will take 1st index byte. Size of int is 4 byte as per Rule 1 it will store at multiple of 4 i.e. 4th byte index. Char x and char y will take 8th and 9th index byte(8 and 9 are multiple of 1). Now, as per Rule 2, structure will take size in multiple of size of maximum size data type, here int has maximum size i.e. of 4 byte so structure size should be multiple of 4 i.e 12 bytes. Structure padding is done on 10th and 11th index byte by the compiler. 
+
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6680714206314156032-0EKh
