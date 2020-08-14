@@ -1,0 +1,13 @@
+Output: 10100 
+Reason: This program is an example to convert a decimal number into an equivalent binary number.
+ Here, the function call itself which is an example of direct recursion(function calls itself). 
+Here, it is the base condition that will stop the recursion. 
+
+n = 20, output = 0 
+n = 10, output = 0 
+n = 5, output = 1 
+n = 2, output = 0 
+n = 1, output = 1(base condition, print 1)
+Recursion function uses the call stack. When a program calls a function, that function goes on the top of the stack. It will print in the LIFO pattern. Final Output: 10100
+
+Link to Problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6698824145251135488-m9J_
