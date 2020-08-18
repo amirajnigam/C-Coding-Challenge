@@ -1,0 +1,5 @@
+Output: d 100
+Reason: In union, all members share the same memory location. The size of a union is taken according to the size of the largest
+member in union i.e. int here. The ASCII value of char i1 = 100 is d and int i2 = 100.
+
+Link to question: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6699933958806888448-MNwR
