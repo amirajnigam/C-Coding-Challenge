@@ -1,0 +1,7 @@
+Output: Compilation error
+Reason: Static variable is stored in the data segment of the program memory. A struct is a derived data type. We define a variable of a particular declared struct type. 
+This variable, say X, is referred to as one whole data item. The structure in turn can be local to a function (in which case it will be given memory on the stack),
+ it can be a global (in which case it will be in the BSS or data segment) or it can be allocated dynamically from the heap. Whatever the case, all its members are continuous in memory.
+So, it is possible to only make the whole structure with all its elements of the static type, because it is not possible to separate one member out to the data segment by making it static.
+
+Link to problem:https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6701362986201825280-_f36
