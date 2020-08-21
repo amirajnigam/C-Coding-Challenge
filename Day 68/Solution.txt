@@ -1,0 +1,4 @@
+Output: #SHIVAMCDAC 29555
+Reason: *p will point towards the address of array c and %s will print the whole string. The ASCII value of s is 115 and its binary value is 1110011. Here the binary value of ss is 0111001101110011 which is equal to decimal value 29555 
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6702100104536576000-VMCw
