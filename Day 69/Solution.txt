@@ -1,0 +1,15 @@
+Output:
+File: main.c                                                                                        
+Func: main
+Line: 15
+Time: 07:50:16  
+Date: Aug 22 2020   
+ 
+Reason: The above code uses predefined macros in C
+__FILE__: Gives the file name of the current source file(a string literal)
+__Func__: Caller function name(a string literal)
+__LINE__: Current line number(an integer constant)
+__TIME__ : Compilation time( a string literal)
+__DATE__ : Compilation date(a string literal)
+
+Link to Problem:https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6702468219543818240-iQEe
