@@ -1,0 +1,10 @@
+Output: #SHIVAMCDAC S
+Reason: p stores the base address of the string. Therefore the entire string is printed.
+
+p[8] = D(ASCII Dec Value = 68)
+p[7] = C(ASCII Dec value = 67)
+ 
+p[8] - p[7] = 1
+*(p+1) = p[1] = S
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6701727656272105472-d-L9
