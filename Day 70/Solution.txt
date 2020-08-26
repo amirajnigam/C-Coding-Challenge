@@ -1,0 +1,8 @@
+Output: 
+#ShivamCDAC
+Address of str1
+Address of str1
+ 
+Reason: When a string value is directly assigned to a pointer, in most of the compilers it's stored in a read-only block(generally in the data segment) that is shared among functions. In code #ShivamCDAC" is stored in a shared read-only location, but the pointer str1 and str2 are stored in read-write memory. We can change the str1 and str2 to point something else but cannot change the value at present str1 and str2.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6703538938142973952-pipJ
