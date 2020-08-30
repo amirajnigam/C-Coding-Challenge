@@ -1,0 +1,15 @@
+Output: #ShivamCDAC infinite times
+
+Reason: the do-while loop is used, the loop will be executed once without checking the termination condition.
+
+Printf function execution will start from right to left. 
+
+
+i = 0
+i++; // i = 1
+j = i--// j = 1 
+i = 0
+
+j will be always one, Hence the loop will execute for infinite times. 
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6705347059781918720-_0eB
