@@ -1,0 +1,6 @@
+Output: 15
+Reason: #if #else #endif are preprocessor directives that are it is just a text substitution tool and it instructs the compiler to do
+required pre-processing before the actual compilation. Here 'a' is not defined so !a will be 1 i.e. #if part will be true.
+  
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6706075058978340864-gsKU
