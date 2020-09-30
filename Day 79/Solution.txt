@@ -1,0 +1,4 @@
+Output: 0xffffff3a
+Reason: 0xc5 in binary is 1100 0101, int is of 4 bytes (32 bit) and it will be stored like this 0000 0000 0000 0000 0000 0000 1100 01010 in the memory. The negation will be 1111 1111 1111 1111 11111 1111 1100 0101 which is equivalent to 0xffffff3a in hex.
+
+Link to problem:https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6716936165838209024-JOsP

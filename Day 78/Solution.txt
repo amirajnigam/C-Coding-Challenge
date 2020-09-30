@@ -1,0 +1,7 @@
+Output: 0x01 or 0x12
+
+Explanation: In binary 0x12530001 will be 0001 0010 0101 0011 0000 0000 0000 0001. Based on the endianness of the machine. If the architecture is big-endian then the output will be 0x12 and for the little-endian output will be 1. Here, int is typecast into char which is of 1 byte. So, the output will be 8 bits of MSB or LSB
+
+as per the endianness. An alternate way to typecast is ((char)y).
+
+Link to problem : https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6716576554140491776-ARkS
