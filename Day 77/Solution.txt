@@ -1,0 +1,4 @@
+Output: d
+Explanation: xyz[3][4] is a 2d array with 3 rows and each row has 4 characters in each row. ptr pointer will point towards the starting address of array xyz. xyz[1] will point towards the 2nd row, (xyz[1] + 1) will point towards 2nd row first character. (*(xyz[1] + 1) will dereference and the output will be d.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6716221262391328768-nDXo
