@@ -1,0 +1,3 @@
+a variable has the longest scope because it is a global variable. b variable is a local variable to the main function and has scope inside the main function only. C is also a global variable but it is declared below main and C programming language follows top to bottom approach. So, the c variable can't be used in the main function.
+
+Link to problem: https://www.linkedin.com/posts/theembeddedsoftwareengineer_100daysofcode-fresher-experienced-activity-6724913188317605889-sZfN
