@@ -1,0 +1,2 @@
+Output: Nothing will be printed.
+Explanation: p[0] = s[6-0] = s[6] = '\0'. When null will appear as a first character then nothing will be printed. Compiler ignores everything after null character.
