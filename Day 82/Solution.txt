@@ -1,0 +1,6 @@
+Output : 
+1 7
+2 6
+3 5
+4 4
+Explanation: good example of recursion. Loop will terminate when termination condition is reached i.e. j >= n
